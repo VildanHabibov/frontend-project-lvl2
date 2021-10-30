@@ -1,0 +1,41 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "difference calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VildankKhabibov/frontend-project-lvl2"
+  },
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "author": "German Fomenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VildankKhabibov/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/VildankKhabibov/frontend-project-lvl2#readme",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "dependencies": {
+    "commander": "^6.2.0",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.6.2",
+    "@types/node": "^14.14.8",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
+  }
+}

@@ -15,7 +15,7 @@
     "testEnvironment": "node",
     "transform": {}
   },
-  "author": "German Fomenko",
+  "author": "Vildan Khabibov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VildankKhabibov/frontend-project-lvl2/issues"
